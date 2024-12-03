@@ -111,7 +111,7 @@ public class LoginActivity extends AppCompatActivity {
                     loginUsername.requestFocus();
                 }
             }
-
+//GIT HUB
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
                 Toast.makeText(LoginActivity.this, "Database Error: " + error.getMessage(), Toast.LENGTH_SHORT).show();
